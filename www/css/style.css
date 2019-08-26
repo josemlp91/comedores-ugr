@@ -1,0 +1,146 @@
+/* Empty. Add your own CSS if you like */
+.tabs .tab-item .icon.monday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/monday_on.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.tuesday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/tuesday_on.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.wednesday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/wednesday_on.png');
+  background-size: 32px 32px;
+}
+
+
+.tabs .tab-item .icon.thursday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/thursday_on.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.friday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/friday_on.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.saturday-on {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/saturday_on.png');
+  background-size: 32px 32px;
+}
+
+
+/* Empty. Add your own CSS if you like */
+.tabs .tab-item .icon.monday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/monday_off.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.tuesday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/tuesday_off.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.wednesday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/wednesday_off.png');
+  background-size: 32px 32px;
+}
+
+
+.tabs .tab-item .icon.thursday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/thursday_off.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.friday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/friday_off.png');
+  background-size: 32px 32px;
+}
+
+.tabs .tab-item .icon.saturday-off {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/saturday_off.png');
+  background-size: 32px 32px;
+}
+
+code  {
+   word-wrap: break-word;
+   max-width:200px;
+   width:200px;
+ }
+
+@font-face {
+ font-family: "League-Gothic";
+  src: url("../font/League-Gothic.otf") format("opentype");
+}
+
+.item h2{
+    margin: 300px auto;
+    font-family: "League-Gothic", Courier;
+    padding-left: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #707070;
+
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.item-avatar > img:first-child{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.spinner svg  {
+  width: 300px;
+  height: 300px;
+  stroke: #25A9CA;
+  fill:#25A9CA ;
+}
+
+.scroll{
+  text-align: center;
+}
+
+.item{
+    text-align: left;
+}

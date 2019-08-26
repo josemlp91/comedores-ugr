@@ -1,0 +1,30 @@
+<ion-view view-title="Comedores UGR">
+  <ion-content class="padding">
+    <ion-spinner ng-if="loading" icon="ripple" class="spinner-assertive"></ion-spinner>
+    <div class="card" ng-repeat="menu in menus | filter:{ id: menuid }">
+      <div class="item item-avatar">
+        <img ng-if="menu.food[0]=='CERRADO'" ng-src="../www/img/close.png">
+        <img ng-if="menu.food[0]!='CERRADO'" ng-src="../www/img/open.png">
+        <h2>{{menu.date[0]}}{{menu.date[1]}}{{menu.date[2]}}</h2>
+      </div>
+
+      <div ng-repeat="food in menu.food">
+        <div class="item item-divider"></div>
+        <div class="item item-body">
+          <div>
+            {{food}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+    <button class="button button-block button-dark" ng-click="identifyUser()">
+        Identify a user
+      </button>
+
+      <button class="button button-block button-positive" ng-if="identified" ng-click="pushRegister()">
+        Register for Push
+      </button>
+    -->
+  </ion-content>
+</ion-view>
